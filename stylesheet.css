@@ -7,8 +7,8 @@ body {
 }
 img {
 	position: absolute;
-	left: 20px;
-	width: 100px;
+	left: 2%;
+	width: 14%;
 	height: auto;
 	margin; 0;
 	padding: 0;
@@ -16,18 +16,15 @@ img {
 	border-radius: 5px;
 }
 .rotated {
-	width: 800px;
 	height: auto;
-	
-	left: 140px; 
-	top: 40px;
+	width: 80%;
 	
 	-webkit-transform: perspective(800px) rotateX(360deg);
 	-moz-transform: perspective(800px) rotateX(360deg);
 	-o-transform: perspective(800px) rotateX(360deg);
 	transform: perspective(800px) rotateX(360deg);
 	
-	transition: all ease 2s;
+	transition: all ease 1s;
 }
 
 .not-rotated {
@@ -36,5 +33,5 @@ img {
 	-o-transform: perspective(800px) rotateX(0deg);
 	transform: perspective(800px) rotateX(0deg);
 	
-	transition: all ease 2s;
+	transition: all ease 1s;
 }
