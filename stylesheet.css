@@ -1,0 +1,40 @@
+* {
+/*	vertical-align: top;*/
+}
+body {
+	background-image: url(http://rberla.github.io/backs/res/skulls.png);
+	overflow-y: hidden;
+}
+img {
+	position: absolute;
+	left: 20px;
+	width: 100px;
+	height: auto;
+	margin; 0;
+	padding: 0;
+	border: 1px dashed #e3d752;
+	border-radius: 5px;
+}
+.rotated {
+	width: 800px;
+	height: auto;
+	
+	left: 140px; 
+	top: 40px;
+	
+	-webkit-transform: perspective(800px) rotateX(360deg);
+	-moz-transform: perspective(800px) rotateX(360deg);
+	-o-transform: perspective(800px) rotateX(360deg);
+	transform: perspective(800px) rotateX(360deg);
+	
+	transition: all ease 2s;
+}
+
+.not-rotated {
+	-webkit-transform: perspective(800px) rotateX(0deg);
+	-moz-transform: perspective(800px) rotateX(0deg);
+	-o-transform: perspective(800px) rotateX(0deg);
+	transform: perspective(800px) rotateX(0deg);
+	
+	transition: all ease 2s;
+}
